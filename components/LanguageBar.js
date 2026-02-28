@@ -15,14 +15,14 @@ export default function LanguageBar({ languages }) {
   const getColor = (lang) => colorMap[lang] || '#4a9e6b'
 
   return (
-    <div className="mb-6 border border-[#33333366] bg-[#0a0a0a] overflow-hidden" style={{fontFamily:"'IBM Plex Mono', monospace"}}>
-      <div className="flex items-center gap-2 px-4 py-2.5 border-b border-[#33333333] bg-[#0a0a0a33]">
+    <div className="mb-6 border border-[#00ff4422] bg-[#040d04] overflow-hidden" style={{fontFamily:"'IBM Plex Mono', monospace"}}>
+      <div className="flex items-center gap-2 px-4 py-2.5 border-b border-[#00ff4415] bg-[#00ff440a]">
         <div className="flex gap-1.5">
           <span className="w-2.5 h-2.5 rounded-full bg-[#ff5f56]" />
           <span className="w-2.5 h-2.5 rounded-full bg-[#ffbd2e]" />
-          <span className="w-2.5 h-2.5 rounded-full bg-[#404040]" style={{boxShadow:'0 0 6px #404040'}} />
+          <span className="w-2.5 h-2.5 rounded-full bg-[#00ff44]" style={{boxShadow:'0 0 6px #00ff44'}} />
         </div>
-        <span className="ml-2 text-[#33333366] text-xs tracking-[0.2em]">~/languages --top-10</span>
+        <span className="ml-2 text-[#00ff4444] text-xs tracking-[0.2em]">~/languages --top-10</span>
       </div>
 
       <div className="p-8">
