@@ -171,8 +171,8 @@ export default function Home() {
             </form>
 
             <div className="mt-4 text-[10px] text-[#00ff4033] space-y-1">
-              <div>// accepts: username, github.com/username, full profile url</div>
-              <div>// fetches all public PRs and issues across github</div>
+              <div>accepts: username, github.com/username, full profile url</div>
+              <div>fetches all public PRs and issues across github</div>
             </div>
           </div>
         </div>

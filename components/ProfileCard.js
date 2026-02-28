@@ -43,7 +43,7 @@ export default function ProfileCard({ profile }) {
 
             {profile.bio && (
               <p className="text-[#7aaa7a] text-sm leading-relaxed mb-5 border-l border-[#00ff4433] pl-3 mt-3">
-                // {profile.bio}
+                {profile.bio}
               </p>
             )}
 
